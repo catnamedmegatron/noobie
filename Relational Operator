@@ -1,0 +1,59 @@
+//divisibility by 2
+#include <stdio.h>
+
+int main()
+
+{
+    int x;
+
+    printf("enter the number : ");
+    scanf("%d",&x);
+
+    /* 1 = divisible by 2
+    0 = not divisible by 2*/
+
+    printf("%d",x%2==0);
+
+    return 0;
+}
+------------------------------------------
+
+//x greater than 9 and less than 100
+#include <stdio.h>
+
+int main()
+
+{
+    int x;
+
+    printf("enter the number : ");
+    scanf("%d",&x);
+
+    /* 1 = true
+    0 = false*/
+
+    printf("%d",x>9 && x<100);
+
+    return 0;
+}
+------------------------------------------
+
+//char x digit or not
+#include <stdio.h>
+
+int main()
+
+{
+    char x;
+
+    printf("enter the character : ");
+    scanf("%c",&x);
+
+    /* 1 = digit
+    0 = not a digit*/
+
+    printf("%d",x>='0' && x<='10');
+
+    return 0;
+}
+--------------------------------------------
